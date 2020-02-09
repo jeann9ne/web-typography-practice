@@ -4,10 +4,12 @@ html, body {
 }
 h1,h2,h3,h4,h5,h6 {
     margin-top: 0;
+    font-family: 'Special Elite', cursive;
 }
 body > * {
     box-sizing: border-box;
-    font-size: 1rem;
+    font-size: 2rem;
+    font-family: nos;
 }
 .items {
     display: flex;
@@ -27,6 +29,12 @@ footer a {
     text-decoration: none;
     color: gray;
 }
+
+@font-face {
+    src: url(fonts/plexifont-webfont.woff);
+    font-family: nos;
+}
+
 @media (min-width: 650px) {
     body > * {
         box-sizing: border-box;
